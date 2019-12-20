@@ -15,6 +15,10 @@ type event struct {
 	Description string `json:"description"`
 }
 
+type student struct {
+	Id string `json:"id"`
+}
+
 type allEvents []event
 
 var events = allEvents{
